@@ -1,5 +1,6 @@
 local games = {
-  [6703679444] = "KickersGlory"
+  [6703679444] = "KickersGlory",
+  [111958650] = "Arsenal",
 }
 
 return games
