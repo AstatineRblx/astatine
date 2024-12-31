@@ -17,6 +17,6 @@ aaab
 
 local list = loadstring(game:HttpGet('https://raw.githubusercontent.com/AstatineRblx/astatine/refs/heads/main/other/list'))()
 if list[game.GameId] then 
-    local prefix = "https://raw.githubusercontent.com/AstatineRblx/astatine/refs/heads/main/other/"
+    local prefix = "https://raw.githubusercontent.com/AstatineRblx/astatine/refs/heads/main/other/game"
     loadstring(game:HttpGet(prefix..list[game.GameId]))()
 end
