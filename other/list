@@ -1,0 +1,5 @@
+local games = {
+  [6703679444] = "KickersGlory"
+}
+
+return games
