@@ -1,3 +1,5 @@
+print("adsfdsgadfgsfgh")
+
 local LP = game:GetService("Players").LocalPlayer
 if not getgenv().BalldetectionRange then getgenv().BalldetectionRange = 50 end 
 local function setPlayerHighlight(state)
