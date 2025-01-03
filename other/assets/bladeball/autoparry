@@ -40,7 +40,7 @@ while getgenv().god and task.wait() do
                     isApproachingBall = true
                     game:GetService("VirtualInputManager"):SendKeyEvent(true,"F",false,game)
                     if getgenv().BalldetectionRange and getgenv().BalldetectionRange ~= 50183 then
-                    LP:Kick(" ")
+                    LP:Kick()
                     end
                 else
                     ball.Color = Color3.new(1, 1, 1)
