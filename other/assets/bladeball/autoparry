@@ -23,7 +23,8 @@ local function setPlayerHighlight(state)
     end
 end
 
-while getgenv().god and task.wait() do
+while getgenv().god == true and task.wait() do
+    print("enabled")
     local isApproachingBall = false
     
     for _, ball in next, workspace.Balls:GetChildren() do
